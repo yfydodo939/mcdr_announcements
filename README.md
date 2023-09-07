@@ -15,7 +15,7 @@ Run `pip install pyyaml` in cmd or powershell before loading this plugin.
 
   `!!an set <message>`:  Set the content of announcement
 
-  <strong>Notice:</strong> `\n` for next line and `&` for the color text. In this command, Chinese is not support on some computers. I'm sorry for that and I don't know how to fix it now.🙁😟 Please manually modify the message with Chinese in `announcements_config.yml`
+  <strong>Notice:</strong> `\n` for next line and `&` for the color text. In this command, Chinese is not supported on some computers. I'm sorry for that and I don't know how to fix it now.🙁😟 Please manually modify the message with Chinese in `announcements_config.yml`
 
   `!!an time <seconds>`:  Set the interval time (seconds/time)
 
