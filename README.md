@@ -3,6 +3,12 @@ A plugin running on MCDR to send announcements regularly.
 <br/>
 Run `pip install pyyaml` in cmd or powershell before loading this plugin.
 
+### v1.2.0 update
++ Added support for Chinese, the plug-in will automatically select the display language based on the server language preference.
+  <br/>添加了对中文的支持，插件将根据服务端语言偏好自动选择显示语言。
++ The plug-in format is changed to `*.mcdr` packaging format, replacing the previous `*.py` single file format.
+  <br/>插件格式换用 `*.mcdr` 打包格式，取代之前的 `*.py` 单文件格式。
+
 ### v1.1.0 update
 
 + Now commands are allowed to configure instead of editing the yaml file. 
