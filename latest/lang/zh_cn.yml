@@ -1,0 +1,15 @@
+mcdr_announcements:
+  help:
+    help: "显示此帮助列表"
+    enable: "启用定时公告"
+    disable: "禁用定时公告"
+    set: "设置公告内容。使用 \\n 换行，& 作为颜色代码"
+    time: "设置间隔时间 (单位: 秒)"
+  command:
+    no_permission: "§4你没有权限那样做! "
+    off: "§2[Announcements] 定时公告已关闭"
+    on: "§2[Announcements] 定时公告已开启"
+    time: "§2正在每 {0}s 展示公告"
+    message: "§2公告文本已被修改! "
+    time_below_zero: "§4间隔时间不得小于 0! "
+  default: "# 这条消息应当显示。支持颜色代码 '§'\nmessage:\n  - §6感谢使用此插件! \n  - §3本插件由 §e§k§ll§r§bdodo939§e§k§ll §r§3开发并维护\n  - §a了解更多请使用指令 !!an\n  # 你可以在下边添加更多行\n\n# 两条公告之间的时间间隔，单位为秒\ntime_interval: 30  # 秒"

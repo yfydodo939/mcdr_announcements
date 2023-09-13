@@ -1,0 +1,15 @@
+mcdr_announcements:
+  help:
+    help: "Show this help message list"
+    enable: "Enable the timed announcement"
+    disable: "Disable the timed announcement"
+    set: "Set the content of announcement. '\\n' for next line and '&' for the color text"
+    time: "Set the interval time (seconds/time)"
+  command:
+    no_permission: "§4Sorry, but you have no permission to do that! "
+    off: "§2[Announcements] The announcement turns off. "
+    on: "§2[Announcements] The announcement turns on. "
+    time: "§2Showing announcement every {0}s"
+    message: "§2The message has been modified! "
+    time_below_zero: "§4The interval cannot be below zero! "
+  default: "# The messages should be shown. Support color through add char '§'\nmessage:\n  - §6Thanks for your support!\n  - §3This plugin is developed by §e§k§ll§r§bdodo939§e§k§ll\n  - §aTo learn more please type !!an\n  # You can add more lines below\n\n# The interval time between two messages. Of course in seconds.\ntime_interval: 30  # seconds"
